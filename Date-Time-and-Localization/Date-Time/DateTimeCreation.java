@@ -52,7 +52,7 @@ public class DateTimeCreation {
         ZonedDateTime zonedDateTime2 = ZonedDateTime.of(date, time, TimeZone.getDefault().toZoneId());
         // Can with with all values specified, however no constructor for enum month and
         // must specify seconds and nano-seconds
-        ZoneId zone = ZoneId.of("US/ Eastern");
+        ZoneId zone = ZoneId.of("US/Eastern");
         ZoneId defaultZone = TimeZone.getDefault().toZoneId();
         ZonedDateTime zonedDateTime3 = ZonedDateTime.of(1996, 06, 07, 12, 05, 10, 10, defaultZone);
         System.out.println();
