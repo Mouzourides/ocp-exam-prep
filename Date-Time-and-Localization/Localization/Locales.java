@@ -27,7 +27,7 @@ class Locales {
         Locale locale = new Locale.Builder().setLanguage("gr").setRegion("GR").build();
         System.out.println(locale);
 
-        // There are a few consts... BUT NOT GREEK
+        // There are a few consts... BUT NOT GREEK!
         System.out.println(Locale.JAPAN);
     }
 }
