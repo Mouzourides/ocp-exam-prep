@@ -9,7 +9,7 @@ class ConsoleClass {
         System.out.println("What's your name?");
         if (console != null) {
             // Flush is used to force any buffered output to be written immedietly, it is
-            // recommended that you call the fluush method prior to calling any readLine or
+            // recommended that you call the flush method prior to calling any readLine or
             // readPassword methods in order to ensure that no data is pending during the
             // read.
             console.flush();
