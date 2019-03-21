@@ -1,4 +1,5 @@
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 class IntStreajR9StringStream {
     public static void main(String args[]) {

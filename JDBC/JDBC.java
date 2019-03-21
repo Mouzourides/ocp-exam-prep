@@ -14,8 +14,9 @@ class JDBC {
     // - ResultSet: Results from SELECT statement
 
     public static void main(String args[]) throws SQLException {
-        try (Connection con = DriverManager.getConnection("jdbc:sql://localhost:3306/db_name", "user", "password")) {
-            Statement st = con.createStatement();
+        try (Connection con = DriverManager.getConnection("jdbc:sql://localhost:3306/db_name", "user", "password");
+                Statement st = con.createStatement()) {
+
             // SCROLL TYPE
             // default scroll is scroll forward only ResultSet.TYPE_SCROLL_FORWARD_ONLY
             // Scroll type can be sensitive, ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet
