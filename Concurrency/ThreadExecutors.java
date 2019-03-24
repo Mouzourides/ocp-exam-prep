@@ -13,7 +13,7 @@ class ThreadExecutors {
         ExecutorService fixedService = Executors.newFixedThreadPool(10);
 
         // Scheduled with fixed size of threads pool
-        ScheduledExecutorService ficedScheduledService = Executors.newScheduledThreadPool(10);
+        ScheduledExecutorService fixedScheduledService = Executors.newScheduledThreadPool(10);
 
         // Creates new threads as needed but will use already created thread if
         // available
